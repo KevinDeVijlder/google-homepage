@@ -1,6 +1,7 @@
 ul {
   list-style-type: none;
-  margin: 0;
+  margin-top: 1em;
+  margin-right: 1em;
   padding: 0;
   overflow: hidden;
   background-color: white;
@@ -20,4 +21,10 @@ li a {
 
 li a:hover {
   text-decoration: underline;
+}
+
+.signinbutton{
+  background-color: #3181E9;
+  color: white;
+  border-radius: 5px;
 }
