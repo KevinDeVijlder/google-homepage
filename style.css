@@ -30,10 +30,61 @@ li a:hover {
 }
 
 .mycontainer {
+    width: 600px;
     position: absolute;
     top: 30%;
     left: 50%;
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
+}
+
+.form {
+    position: relative
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #9ca3af
+}
+
+.form span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db
+}
+
+.left-pan {
+    padding-left: 7px
+}
+
+.left-pan i {
+    padding-left: 10px
+}
+
+.form-input {
+    height: 55px;
+    width: px;
+    text-indent: 33px;
+    border-radius: 24px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dfe1e5;
+}
+
+.form-input:focus {
+    border-color: rgba(223,225,229,0);
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.margintop{
+  margin-top: 1.5em;
+}
+
+.aligncenter{
+  text-align: center;
 }
